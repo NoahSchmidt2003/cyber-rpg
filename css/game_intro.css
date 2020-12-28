@@ -1,0 +1,21 @@
+
+@font-face{
+    font-family: roboto;
+    src: url(../fonts/Roboto-Thin.ttf);
+}
+
+body{
+    background-color: black;
+    color:white;
+    font-family: roboto;
+}
+
+.heading{
+   font-size: 100px;
+}
+
+.center{
+    margin-top: 25%;
+    text-align: center;
+    
+}

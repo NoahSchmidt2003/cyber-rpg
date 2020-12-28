@@ -1,0 +1,191 @@
+
+body{
+    background-color: #6e6e6e;
+    color:white;
+    margin: 0px;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html{
+    margin: 0px;
+    height: 100%;
+}
+
+.container{
+    height: 100%;
+    position: relative;
+}
+
+.enemy_progress{
+    position: absolute;
+    top: 2%;
+    right: 10%;
+    height: 3%;
+    width: 30%;
+    background-color:red;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+
+}
+
+.enemy_bar{
+    width: 100%;
+    height: 100%;
+    background-color: lime;
+    
+}
+
+.cyborg{
+    position: absolute;
+    width: 30%;
+    height: 50%;
+    right: 10%;
+    top: 10%;
+}
+
+.elliot_progress{
+    position: absolute;
+    top: 90%;
+    right: 55%;
+    height: 3%;
+    width: 40%;
+    background-color:red;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+
+}
+
+.elliot_bar{
+    width: 100%;
+    height: 100%;
+    background-color: lime;
+    
+}
+
+.text_life{
+    position: absolute;
+    top: 82%;
+    left: 15%;
+    font-size: 220%;
+}
+
+.text_shield{
+    position: absolute;
+    top: 72%;
+    left: 15%;
+    font-size: 220%;
+}
+
+
+.elliot_progress_shield{
+    position: absolute;
+    top: 80%;
+    right: 55%;
+    height: 3%;
+    width: 40%;
+    background-color: #ffffff;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+
+}
+
+.elliot_shield{
+    width: 100%;
+    height: 100%;
+    background-color: #00127a;
+}
+
+.emp_pistol{
+    top: 75%;
+    right: 40%;
+    position: absolute;
+    height: 20%;
+    width: 10%;
+}
+
+.emp{
+    position: absolute;
+    top: 75%;
+    right: 32.5%;
+    height: 20%;
+    width: 10%;
+}
+
+.heal{
+    position: absolute;
+    top: 79%;
+    right: 23%;
+    height: 20%;
+    width: 10%;
+}
+
+.shield{
+    position: absolute;
+    top: 75%;
+    right: 12%;
+    height: 20%;
+    width: 10%;
+}
+
+.boost{
+    position: absolute;
+    top: -3%;
+    left: 47%;
+    font-size: 250%;
+}
+
+.info_text{
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    font-size: 300%;
+    visibility: hidden;
+}
+
+.amount_medkit{
+    position: absolute;
+    top: 73%;
+    left: 71%;
+    font-size: 200%;
+}
+
+.amount_shield{
+    position: absolute;
+    top: 72%;
+    left: 82%;
+    font-size: 200%;
+}
+
+.content{
+    right: 30%;
+    position: absolute;
+    text-align: center;
+    font-size: 500%;
+    bottom: 10%;
+    color: black;
+}
+
+.chest_drops{
+    height: 100%;
+    position: relative;
+    display: none;
+    visibility: hidden;
+}
+
+.drop_text{
+    position: absolute;
+    top: 90%;
+    right: 50%;
+}
+
+.chest_xbutton{
+    position: absolute;
+    height: 20%;
+    width: 20%;
+    right: -55%;
+    top: 10%;
+}
+

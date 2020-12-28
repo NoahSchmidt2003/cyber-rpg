@@ -1,0 +1,45 @@
+
+body{
+    background-color: #6e6e6e;
+    color:white;
+    margin: 0px;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html{
+    margin: 0px;
+    height: 100%;
+}
+
+.container{
+    height: 100%;
+    position: relative;
+}
+
+.server{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.note{
+    position: absolute;
+    right: 25%;
+    top: 40%;
+    height: 30%;
+    width: 20%;
+}
+
+.box{
+    background-color: green;
+    display: inline-block;
+    box-sizing: border-box;
+    border-radius: 20px 20px 20px 20px;
+    position: absolute;
+    bottom: 0px;
+}
+
+.text_box{
+    display:inline-block;
+    margin-right:10px;
+}
+

@@ -1,0 +1,30 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    font-size: 500%;
+}
+
+.center{
+    text-align: center;
+}
+
+.text{
+    font-size: 200%;
+}
+
+h2{
+    font-size: 300%;
+    color: lime;
+}
+
+h3{
+    font-size: 250%;
+}
+
+.command{
+    color: lime;
+}

@@ -1,0 +1,41 @@
+@font-face {
+    font-family: fontclock;
+    src: url(../fonts/DS-DIGI.TTF)
+}
+
+body{
+    background-color: black;
+    color: white;
+    font-family: fontclock;
+}
+
+h1{
+    font-family: fontclock;
+    font-size: 150px;
+}
+
+button{
+    width: 800px;
+    height: 200px;
+    font-family: fontclock;
+    font-size: 100px;
+    
+}
+
+.center_button{
+    text-align: center;
+    margin: 250px 0px 0px;
+}
+
+.center_h{
+    text-align: center;
+}
+
+button:hover{
+    width: 850px;
+    height: 225px;
+}
+
+button:active{
+    background-color: lime;
+}

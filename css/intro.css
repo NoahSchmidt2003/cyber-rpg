@@ -1,0 +1,44 @@
+body{
+    background-color: black;
+    color: lime;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.heading{
+    font-size: 100px;
+}
+
+.center{
+    text-align: center;
+}
+
+.text{
+    font-size: 40px;
+}
+.center_load{
+    text-align: center;
+    margin-top: 100px;
+}
+#progressbar{
+    height: 50px;
+    width: 100%;
+    background-color: grey;
+    visibility: hidden;
+    border-style: solid;
+    border-width: 3px;
+    border-color: gray;
+}
+
+#bar{
+    width: 1%;
+    height: 50px;
+    background-color: lime;
+    visibility: hidden;
+
+}
+
+#text_load{
+    color: white;
+    font-size: 40px;
+    visibility: hidden;
+}
