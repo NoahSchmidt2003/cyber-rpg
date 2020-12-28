@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Cyber-RPG</title>
+        <link rel="stylesheet" href="../css/first_fight.css">
+    </head>
+    <body>
+        <audio id="cyborg_1">
+            <source src="../music/cyborg1.mp3" type="audio/mp3">
+        </audio>
+        <audio id="cyborg_2">
+            <source src="../music/cyborg2.mp3" type="audio/mp3">
+        </audio>
+        <audio id="cyborg_3">
+            <source src="../music/cyborg3.mp3" type="audio/mp3">
+        </audio>
+        <audio id="aihci1">
+            <source src="../music/aihci_sound1.mp3" type="audio/mp3">
+        </audio>
+        <audio id="cyborg_4">
+            <source src="../music/cyborg4.mp3" type="audio/mp3">
+        </audio>
+        <audio id="cyborg_explode">
+            <source src="../music/explosion.mp3" type="audio/mp3">
+        </audio>
+        <audio id="alarm">
+            <source src="../music/alarm.mp3" type="audio/mp3">
+        </audio>
+        <audio id="chest_open">
+            <source src="../music/chest_open.mp3" type="audio/mp3">
+        </audio>
+        <audio id="cyborg_approching">
+            <source src="../music/cyborg_approaching.mp3" type="audio/mp3">
+        </audio>
+        <audio id="warning_cyborg">
+            <source src="../music/warning_cyborg.mp3" type="audio/mp3">
+        </audio>
+        <div class="end" id="end">
+            <img src="../img/cyborg_army.png" class="cyborg_army">
+
+        </div>
+        <div class="chest_drops" id="chest_drops">
+            <div class="content">
+                <img src="../img/emp_pistol.png" class="drop" id="drop">
+                <p class="drop_text" id="drop_text">EMP-Pistol</p>
+                <img src="../img/x-button.png" class="chest_xbutton" id="chest_xbutton" onclick="close_chest()">
+            </div>
+        </div>
+
+        <div class="aihci_menu_div" id="aihci_menu_div">
+            <div>
+            <img src="../img/aihci.png" class="aihci_menu">
+            <div class="hack_icon" >
+                <img src="../img/virus_icon.png" id="hack_icon" onclick="hack()">
+                <p>Hack</p>
+            </div>
+
+            <img class="x_button_aihci" id="x_button_aihci" src="../img/x-button.png" onclick="close_aihci()">
+            </div>
+        </div>
+        <div class="container" id="container">
+            <img src="../img/cyborg_happy.png" class="cyborg" id="cyborg">
+            <img src="../img/chest.png" class="lootbox" id="lootbox" onclick="chest()">
+        <div class="box" id="box_bg">
+            <h1 class="text_box" id="next_text">Guten Tag.</h1>
+            <button class="button_box" id="next_btn" onclick="next()">Next</button>
+        </div>
+        <div class="aihci" onclick="fun_aihci_menu()" id="aihci">
+            <p>AIHCI</p>
+        </div>
+        </div>
+        <script src="../js/first_fight.js" async defer></script>
+    </body>
+</html>

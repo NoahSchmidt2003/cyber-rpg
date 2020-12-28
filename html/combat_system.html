@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Cyber-RPG</title>
+        <link rel="stylesheet" href="../css/combat_system.css">
+    </head>
+    <body>
+        <audio id="pistol_sound">
+            <source src="../music/pistol.mp3" type="audio/mp3">
+        </audio>
+        <audio id="pistol_sound2">
+            <source src="../music/pistol.mp3" type="audio/mp3">
+        </audio>
+        <audio id="rifle_sound1">
+            <source src="../music/rifle.mp3">
+        </audio>
+        <audio id="rifle_sound2">
+            <source src="../music/rifle2.mp3">
+        </audio>
+        <audio id="emp_sound">
+            <source src="../music/emp.mp3">
+        </audio>
+        <div class="chest_drops" id="chest_drops">
+            <div class="content">
+                <img src="../img/emp_pistol.png" class="drop" id="drop">
+                <p class="drop_text" id="drop_text">..</p>
+                <img src="../img/x-button.png" class="chest_xbutton" id="chest_xbutton" onclick="close_chest()">
+            </div>
+        </div>
+        <div class="container" id="container">
+            <img src="../img/cyborg_angry.png" class="cyborg" id="cyborg">
+            <div class="enemy_progress">
+                <div class="enemy_bar" id="enemy_bar"></div>
+            </div>
+            <p class="text_life">Deine Leben</p>
+            <p class="text_shield">Dein Schild</p>
+            <p class="info_text" id="info_text">Info</p>
+            <p class="boost" id="boost">Boost : 1x</p>
+            <p class="amount_medkit" id="amount_medkit">1</p>
+            <p class="amount_shield" id="amount_shield">1</p>
+            <div class="elliot_progress">
+                <div class="elliot_bar" id="elliot_bar"></div>
+            </div>
+            <div class="elliot_progress_shield">
+                <div class="elliot_shield" id="elliot_shield"></div>
+            </div>
+            <img src="../img/emp_pistol.png" class="emp_pistol" id="emp_pistol" onclick="fun_emp_pistol()" title="Eine normale EMP Pistole, nicht gerade die stärkste Waffe.">
+            <img src="../img/emp.png" class="emp" id="emp" onclick="fun_emp()" title="Mit diesem Powerup hast du eine Chance von 1/3, dass dein Gegner 3 Runden kampfunfähig ist.">
+            <img src="../img/heal.png" class="heal" id="heal" onclick="fun_medkit()" title="Mit einem Medkit kannst du deine Leben heilen.">
+            <img src="../img/shield.png" class="shield" id="shield" onclick="fun_shield()" title="Mit der Macht von Plasma kannst du deine Schilde wiederherstellen.">
+        </div>
+        <script src="../js/combat_system.js"></script>
+    </body>
+</html>
