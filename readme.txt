@@ -7,6 +7,7 @@ website getestet auf Windows 10 mit Firefox 84.0.1 (64-bit)
 Website:
 
 -für beste Funktionalität einen 16:9 Monitor benutzen (1920x1080 px)
+- am besten Desktop PC benutzen oder Laptop mit Desktop Monitor
 - Am besten Fullscreen oder maximized window benutzen
 - In den Firefox Einstellungen automatische Soundwiedergabe erlauben siehe help.png
 	-Sie müssen in die Firefox Einstellungen auf Datenschutz und Sicherheit und dann auf automatische Wiedergabe und diese dann für alle Webseiten erlauben.
